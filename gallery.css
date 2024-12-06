@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:  rgb(33, 37, 41,1);
+    background-image:"Css & elements/img/Gbg.jpg";
+}
+.header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: rgba(108, 117, 125,0.3);
+        position: relative;
+        z-index:100;
+       
+        
+    }
+
+    .header .greeting {
+        font-size: 20px;
+        font-family: Verdana;
+    }
+
+    .header nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    .header nav a {
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        font-family: Monaco;
+    }
+
+    .header nav a:hover {
+       border-radius:10px;
+        color: white;
+    background-color: rgb(108, 117, 125);
+    }
+.ht {
+    margin: 30px 120px;
+    border-spacing: 0;
+    background-color: transparent; 
+    
+}
+.ht td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: auto;
+    vertical-align: middle;
+    border: none; 
+}
+.ht img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+}
+.empty {
+    visibility: hidden; 
+}
